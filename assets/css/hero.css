@@ -1,0 +1,67 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    text-align: center;
+    max-width: 1000px;
+    /* Set your desired max-width */
+    width: 100%;
+    /* Ensure it takes full width up to the max-width */
+}
+
+.badge-custom {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DCEAFF;
+    border-radius: 8px;
+    padding: 4px 8px;
+    color: #7392FF;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-text h1,
+.hero-text span {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 48px;
+    color: #007BFF;
+    line-height: 72px;
+    font-weight: 700;
+}
+
+.hero-text span {
+    color: #333333;
+    /* Override color specifically for span */
+   
+}
+
+.hero-text p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #777777;
+    margin: 10px 0 0;
+        /* Add margin-top for space above the paragraph */}
+
+.cta-buttons {
+    min-width: 305px;
+    min-height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    font-weight: 700px;
+    line-height: 24px;
+    size: 16px;
+    margin-bottom: 1rem;
+}
+
