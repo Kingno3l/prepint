@@ -68,3 +68,35 @@
   font-size: 16px;
   margin-bottom: 1rem;
 }
+
+/* Fade-in effect for the hero section */
+.hero {
+    opacity: 0;
+    /* Start invisible */
+    transition: opacity 1s ease-in-out;
+    /* Fade in transition */
+}
+
+/* Slide-in effect for the image */
+.hero img {
+    transform: translateY(30px);
+    /* Start 30px lower */
+    opacity: 0;
+    /* Start invisible */
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+    /* Slide in and fade in transition */
+}
+
+/* Class to apply when the hero section should be visible */
+.hero.visible {
+    opacity: 1;
+    /* Make visible */
+}
+
+/* Class to apply when the image should slide in */
+.hero img.visible {
+    transform: translateY(0);
+    /* Slide to original position */
+    opacity: 1;
+    /* Make visible */
+}
